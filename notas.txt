@@ -1,0 +1,11 @@
+<header></header> encabezado de la pagina
+<body></body> contenido de la pagina
+
+h1
+h2
+h3
+Separaciones para titulos
+
+hgroup 
+agrupadores de los titulos
+

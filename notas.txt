@@ -9,3 +9,23 @@ Separaciones para titulos
 hgroup 
 agrupadores de los titulos
 
+p para crear un parrafo
+span para dar formato a una linea de texto, lineal
+
+strong para darle mas enfasis semantico a una palabara
+em lo mismo
+
+section crear una seccion o agrupador para diferentes elementos en la pagina
+article es para crear los elemenos de las paginas como post y demas
+
+aside para crear contenido relacion a a cierto contenido mostrador
+
+div agrupadores de disenios y hacer boxex
+
+footer lo mismo que el header
+
+para imgenes se usa img, pero podemos encerrarla en la etiqueta figure para que se reonozca por seo
+
+form va igual que como ya se
+
+seguimos en css

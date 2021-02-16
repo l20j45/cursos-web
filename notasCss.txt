@@ -1,0 +1,35 @@
+de preferencia bajar el normalize
+
+de preferencia bajar tambien modernize
+
+y luego ya comenzariamos a trabajar con el css
+
+prefijos segun el navegador
+
+-webkit-    google chrome, safari, navegador android
+-moz-       firefox
+-o-         opera
+-ms-        internet explorer, Edge
+-ktml-      Konquerer
+
+mucho de esto lo podemos ver en can i use
+https://caniuse.com
+
+padding borde interno
+border borde fuera
+background no afecta
+margin espacio con respecto al rededor
+
+display inline
+        inline-block
+        block
+
+position    relative    aqui va depende del padre directo o elemento que lo contenga
+            absolute    abosulta en el elemento a body
+            fixed       hace el positio deacuerdo al body
+
+z-index         maneja capas tipo photoshop
+
+visibility      propiedad de visualizacion
+
+opacity         propiedad de transparencia

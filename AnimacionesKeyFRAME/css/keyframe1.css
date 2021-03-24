@@ -1,0 +1,28 @@
+div {
+    font-family: Arial, Helvetica, sans-serif0;
+    background: #a8cf45;
+    text-align: center;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    margin: 30px 0 0 10px;
+}
+
+p {
+    padding-top: 15px;
+}
+
+.caja:hover {
+    -webkit-animation: 5s cambia_color 1;
+}
+
+@-webkit-keyframes cambia_color {
+    0%,
+    70% {
+        background: blue;
+    }
+    50% {
+        background: red;
+        height: 200px;
+    }
+}

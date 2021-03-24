@@ -1,0 +1,27 @@
+div {
+    font-family: Arial, Helvetica, sans-serif0;
+    background: #a8cf45;
+    text-align: center;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    margin: 30px 0 0 10px;
+}
+
+p {
+    padding-top: 15px;
+}
+
+.flash:hover {
+    -webkit-animation: 1s flash 1;
+}
+
+@-webkit-keyframes flash {
+    50% {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}

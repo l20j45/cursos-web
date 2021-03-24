@@ -1,0 +1,35 @@
+div {
+    font-family: Arial, Helvetica, sans-serif0;
+    background: #a8cf45;
+    text-align: center;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    margin: 30px 0 0 10px;
+}
+
+p {
+    padding-top: 15px;
+}
+
+.vaiven:hover {
+    -webkit-animation: 1s vaiven 1;
+}
+
+@-webkit-keyframes vaiven {
+    15% {
+        -webkit-transform: rotate(-10deg) translateX(-25%);
+    }
+    30% {
+        -webkit-transform: rotate(5deg) translateX(20%);
+    }
+    45% {
+        -webkit-transform: rotate(-3deg) translateX(-10%);
+    }
+    60% {
+        -webkit-transform: rotate(2deg) translateX(5%);
+    }
+    75% {
+        -webkit-transform: rotate(-1deg) translateX(-3%);
+    }
+}

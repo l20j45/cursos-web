@@ -1,0 +1,35 @@
+body {
+    background: #64062e;
+}
+
+div {
+    font-family: 'Arial';
+    background-color: #a8cf45;
+    margin: 10px 10px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px 30px;
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.borde_interno {
+    position: relative;
+}
+
+.borde_interno:before {
+    content: '';
+    position: absolute;
+    border: 4px solid white;
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+}
+
+.borde_interno:hover:before {
+    opacity: 1;
+}

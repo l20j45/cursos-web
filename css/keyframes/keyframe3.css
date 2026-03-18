@@ -1,0 +1,26 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #a8cf45;
+    text-align: center;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    margin: 30px 0 0 10px;
+}
+
+p {
+    padding-top: 15px;
+}
+
+.click:hover {
+    animation: .5s click 1;
+}
+
+@keyframes click {
+    25% {
+        transform: scale(0.7);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
